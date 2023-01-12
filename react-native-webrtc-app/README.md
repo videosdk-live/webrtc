@@ -1,5 +1,8 @@
 # React Native WebRTC App with Signalling
 
+<img src="./public/screen_shots.png" />
+
+---
 ## Run the Sample App
 
 Clone the repository to your local environment.
@@ -19,20 +22,22 @@ cd react-native-webrtc-app/server
 ```
 
 #### Step 2: Install Dependency
+
 ```js
 
 npm install
 ```
 
 #### Step 3: Run the project
+
 ```js
 
 npm run start
 ```
+
 ---
 
 ### Client Setup
-
 
 #### Step 1: Go to client folder
 
@@ -49,12 +54,11 @@ npm install
 
 ### Step 3: Provide your local Ip address in `SocketIOClient`.
 
- in App.js file, update the Network Ip address.
- 
-```js
-  const socket = SocketIOClient('http://192.168.2.201:3500', {});
-```
+in App.js file, update the Network Ip address.
 
+```js
+const socket = SocketIOClient("http://192.168.2.201:3500", {});
+```
 
 ### Step 4: Run the sample app
 
