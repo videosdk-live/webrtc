@@ -1,6 +1,6 @@
 # React Native WebRTC App with Signalling
 
-<img src="./public/screen_shots.png" />
+<img src="./public/compressed-react-native-webrtc.jpeg" />
 
 ---
 ## Run the Sample App
