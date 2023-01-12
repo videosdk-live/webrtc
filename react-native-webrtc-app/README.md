@@ -14,7 +14,7 @@ git clone https://github.com/videosdk-live/webrtc.git
 
 ```js
 
-cd server
+cd react-native-webrtc-app/server
 
 ```
 
@@ -38,7 +38,7 @@ npm run start
 
 ```js
 
-cd client
+cd react-native-webrtc-app/client
 ```
 
 ### Step 2: Install the dependecies
