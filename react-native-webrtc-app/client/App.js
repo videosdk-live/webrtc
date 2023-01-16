@@ -389,7 +389,7 @@ export default function App({}) {
               marginTop: 12,
               color: '#ffff',
             }}>
-            43215 is calling..
+            {otherUserId.current} is calling..
           </Text>
         </View>
         <View
