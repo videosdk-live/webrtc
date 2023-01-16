@@ -88,7 +88,13 @@ export default function App({}) {
 
       if (peerConnection.current) {
         peerConnection?.current
-          .addIceCandidate(new RTCIceCandidate(message.candidate))
+          .addIceCandidate(
+            new RTCIceCandidate({
+              candidate: message.candidate,
+              sdpMid: message.id,
+              sdpMLineIndex: message.label,
+            }),
+          )
           .then(data => {
             console.log('SUCCESS');
           })
