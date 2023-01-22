@@ -1,4 +1,4 @@
-# React Native WebRTC App with Signalling
+# WebRTC React Native App with Signalling
 
 <img src="./public/compressed-react-native-webrtc.jpeg" />
 
