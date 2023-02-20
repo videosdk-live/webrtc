@@ -1,1 +1,1 @@
-# WebRTC is everything. Free WebRTC Demos and Examples.
+# WebRTC means Web Real Time Communication. Free WebRTC Demos and Examples.
